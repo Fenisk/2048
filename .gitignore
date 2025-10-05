@@ -1,0 +1,44 @@
+# Build directories
+build*/
+bin/
+lib/
+
+# Qt Creator
+*.pro.user
+*.user
+*.qmake.stash
+
+# Compiled objects
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile*
+*.cmake
+
+# Qt-specific cache
+*.qmake.cache
+*.qmake.stash
+
+# Temporary / backup files
+*~
+*.bak
+*.tmp
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
